@@ -26,7 +26,7 @@ BATCH_SIZE = 32
 CRITERION = nn.BCELoss()
 MODEL_PATH = "model_weights.pth"
 DS_URL = "https://www.kaggle.com/competitions/titanic/data"
-DS_DIR = 'titanic/train.csv'
+DS_DIR = 'data/train.csv'
 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
